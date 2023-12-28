@@ -5,7 +5,7 @@
 Команды ниже необходимо вводить через терминал PyCharm<br>
 
 2. Склонировать проект в PyCharm: <br>
-`git clone `
+`git clone https://github.com/Olga-Yar/test_dash`
 3. Нажать Enter
 5. Установть виртуальное окружение:<br>
 `python3 -m venv venv`
