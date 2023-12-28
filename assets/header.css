@@ -1,0 +1,55 @@
+.app-header {
+    height: 50px;
+    font-size: normal;
+    font-weight: normal;
+    border-bottom: thin lightgrey solid;
+    margin-bottom: 40;
+    margin-left: 20;
+}
+
+.header-pink {
+    background-color: #e8aae6;
+    position: relative;
+    height: 70px;
+    width: calc(100vw/1.5);
+    border-radius: 0 50px 50px 0;
+    overflow: hidden;
+}
+
+.circle {
+    background-color: #e8aae6; /* Цвет круга */
+    width: 70px; /* Ширина круга */
+    height: 70px; /* Высота круга */
+    border-radius: 50%; /* Закругление углов */
+    position: relative; /* Позиционирование элемента относительно header */
+    top: 50%; /* Вертикальное положение */
+    transform: translateY(-100%); /* Центрирование элемента по вертикали */
+    right: -68%; /* Отступ от правой границы header */
+}
+
+.app-tail {
+    background-color: #e8aae6;
+    position: fixed;
+    bottom: 20px;
+    height: 30px;
+    width: calc(100vw/8);
+    border-radius: 50px;
+    overflow: hidden;
+    left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-referral {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+}
+
+.app-body {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: -35px;
+    margin-bottom: 70px;
+}
